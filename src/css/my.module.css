@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #0085C2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.header > div > p{  
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}
+.main {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #0085C2;
+    border-radius: 30px;
+}
+.main > div > div:nth-child(1){
+    height: 190px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}
+.main > div > div:nth-child(1) > img{
+    margin-left: 58px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.main > div > div:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 350px;
+    padding-bottom: 50px;
+}
+.main > div > div:nth-child(2) > div > a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main > div > div:nth-child(2) img{
+    /* width: 84.193px; */
+    color: rgba(255, 255, 255, 0.70);
+    height: 100px;
+}
+.main > div > div:nth-child(2) p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 51.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.main > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px rgba(255, 255, 255, 0.70) solid;
+    height: 7vh;
+}
+.main > a > div > p{
+    color: rgba(255, 255, 255, 0.70);
+
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

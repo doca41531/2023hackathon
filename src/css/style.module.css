@@ -1,0 +1,200 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #0085C2;
+}
+.memu{
+    width: 960px;
+    height: 600px;
+    margin: 60px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #0085C2;
+    fill: #0085C2;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0px 4px 80.8px -40px rgba(0, 0, 0, 0.7);
+    font-size: 43.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.q1{
+    width: 960px;
+    height: 624.933px;
+    flex-shrink: 0;
+    border: 1px solid blue;
+    /* margin-left: 60px; */
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.bin{
+    border: 1px solid red;
+    height: 161px;
+    width: 1080px;
+    overflow: hidden;
+}
+.bin{
+    height: 161px;
+    width: 100%;
+}
+.footer{
+    position: absolute;
+    width: 1080px;
+    height: 263px;
+}
+.bar{
+    width: 1080px;
+    height: 133px;
+}
+.smart{
+    width: 1080px;
+    height: 130px;
+}
+.header > form > label {
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.header > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header > form > input {
+    width: 940px;
+    height: 100px;
+    flex-shrink: 0;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.memu > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.memu img {
+    width: 144px;
+    height: 144px;
+    flex-shrink: 0;
+}
+.memu p {
+    color: black;
+    text-align: center;
+}
+.q1 {
+    font-size: 51.294px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px;
+}
+.q1 > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+.q1_main p {    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.q1_text > div > div {
+    display: flex;
+}
+  
+.search-bar__input:focus {
+    outline: none;
+    width: 300px;
+    text-align: left;
+}
+  
+.fa-search {
+    font-size: 15px;
+}
+.footer{
+    position: absolute;
+    width: 1080px;
+    height: 263px;
+}
+.footer> div{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    border-top: 5px solid black;
+}
+.q1>div:nth-child(1){
+    margin-left: 60px;
+}
+.q1_main > div > div{
+    display: flex;
+    justify-content: space-between;
+}
+.bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.q1_main{
+    width: 690px;
+    border: 1px gray solid;
+    border-radius: 30px;
+}
+.star {
+    width: 28.212px;
+    height: 29.067px;
+}
+.q1_text>div>div>div>img{
+    width: 50px;
+    height: 50px;
+}
+.q1_text > div:nth-child(2){
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.q1_text > div > p:nth-child(2){
+    color: gray;
+    font-size: 40px;
+}
+.qu{
+    display: flex;
+}
+.q1_main_arr{
+    display: flex;
+    width: 1020px;
+    overflow: scroll;
+    margin-left: 60px;
+}
+.q1_main_arr > div:nth-child(n +2){
+    margin-left: 60px;
+}
+.q1_text > div > span{
+    padding: 10px;
+}
+.form{
+    display: flex;  
+    align-items: end;
+}
+.main{
+    width: 960px;
+    /* height: 20%; */
+    /* margin-left: 60px; */
+    /* margin-top: 50px; */
+}

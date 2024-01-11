@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import Input from "./input/input";
+import Input from "./From/input";
+
 
 const Header = styled.header`
     height: 13vh;
