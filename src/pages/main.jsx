@@ -24,18 +24,18 @@ import memu from "../css/memu.module.css";
 const Main = () => {
     return(
     <>
-    <header className={memu.header}>
-      <form action="#" className={memu.form}>
+    <header className={styles.header}>
+      <form action="#" className={styles.form}>
         <div>
             <label htmlFor="#">오늘 저녁은 이걸로</label>
             <img src={`${q}`} alt="#" />    
         </div>
         <div>
             <img src={`${find}`} alt="#" />
-            <input type="text" placeholder="매장 또는 메뉴 입력" />
+            <input type="text" name='memu' placeholder="매장 또는 메뉴 입력" />
         </div>
       </form>
-    </header>
+    </header> 
     <main className={styles.main}>
       <div className={styles.memu}>
         <div>
@@ -131,96 +131,6 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className={styles.q1_main}>
-            <div>
-              <img src={`${BHC}`} alt="#" />
-              <div>
-                <div>
-                    <div className={styles.q1_text}> 
-                      <div>
-                      <p>BHC 치킨</p>
-                      <p>황금올리브 바삭바삭</p>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <img src={`${star}`} alt="#" />
-                            <span>4.5(12)</span>
-                          </div>
-                          <div>
-                            <img src={`${chat}`} alt="#" />
-                            <span>380m</span>
-                          </div>
-                        </div>
-                        <div>
-                          <img src={`${Wla}`} alt="#" />
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.q1_main}>
-            <div>
-              <img src={`${BHC}`} alt="#" />
-              <div>
-                <div>
-                    <div className={styles.q1_text}> 
-                      <div>
-                      <p>BHC 치킨</p>
-                      <p>황금올리브 바삭바삭</p>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <img src={`${star}`} alt="#" />
-                            <span>4.5(12)</span>
-                          </div>
-                          <div>
-                            <img src={`${chat}`} alt="#" />
-                            <span>380m</span>
-                          </div>
-                        </div>
-                        <div>
-                          <img src={`${Wla}`} alt="#" />
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.q1_main}>
-            <div>
-              <img src={`${BHC}`} alt="#" />
-              <div>
-                <div>
-                    <div className={styles.q1_text}> 
-                      <div>
-                      <p>BHC 치킨</p>
-                      <p>황금올리브 바삭바삭</p>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <img src={`${star}`} alt="#" />
-                            <span>4.5(12)</span>
-                          </div>
-                          <div>
-                            <img src={`${chat}`} alt="#" />
-                            <span>380m</span>
-                          </div>
-                        </div>
-                        <div>
-                          <img src={`${Wla}`} alt="#" />
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div className={styles.q1}>
@@ -229,126 +139,6 @@ const Main = () => {
           <span><img src={`${arrow}`} alt="#" /></span>
         </div>
         <div className={styles.q1_main_arr}>
-          <div className={styles.q1_main}>
-            <div>
-              <img src={`${BHC}`} alt="#" />
-              <div>
-                <div>
-                    <div className={styles.q1_text}> 
-                      <div>
-                      <p>BHC 치킨</p>
-                      <p>황금올리브 바삭바삭</p>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <img src={`${star}`} alt="#" />
-                            <span>4.5(12)</span>
-                          </div>
-                          <div>
-                            <img src={`${chat}`} alt="#" />
-                            <span>380m</span>
-                          </div>
-                        </div>
-                        <div>
-                          <img src={`${Wla}`} alt="#" />
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.q1_main}>
-            <div>
-              <img src={`${BHC}`} alt="#" />
-              <div>
-                <div>
-                    <div className={styles.q1_text}> 
-                      <div>
-                      <p>BHC 치킨</p>
-                      <p>황금올리브 바삭바삭</p>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <img src={`${star}`} alt="#" />
-                            <span>4.5(12)</span>
-                          </div>
-                          <div>
-                            <img src={`${chat}`} alt="#" />
-                            <span>380m</span>
-                          </div>
-                        </div>
-                        <div>
-                          <img src={`${Wla}`} alt="#" />
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.q1_main}>
-            <div>
-              <img src={`${BHC}`} alt="#" />
-              <div>
-                <div>
-                    <div className={styles.q1_text}> 
-                      <div>
-                      <p>BHC 치킨</p>
-                      <p>황금올리브 바삭바삭</p>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <img src={`${star}`} alt="#" />
-                            <span>4.5(12)</span>
-                          </div>
-                          <div>
-                            <img src={`${chat}`} alt="#" />
-                            <span>380m</span>
-                          </div>
-                        </div>
-                        <div>
-                          <img src={`${Wla}`} alt="#" />
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.q1_main}>
-            <div>
-              <img src={`${BHC}`} alt="#" />
-              <div>
-                <div>
-                    <div className={styles.q1_text}> 
-                      <div>
-                      <p>BHC 치킨</p>
-                      <p>황금올리브 바삭바삭</p>
-                      </div>
-                      <div>
-                        <div>
-                          <div>
-                            <img src={`${star}`} alt="#" />
-                            <span>4.5(12)</span>
-                          </div>
-                          <div>
-                            <img src={`${chat}`} alt="#" />
-                            <span>380m</span>
-                          </div>
-                        </div>
-                        <div>
-                          <img src={`${Wla}`} alt="#" />
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className={styles.q1_main}>
             <div>
               <img src={`${BHC}`} alt="#" />
@@ -394,7 +184,6 @@ const Main = () => {
       </div>
       </div>
     </footer>
-    
     </>)
 }
 
